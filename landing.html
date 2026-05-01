@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">BrightStart</a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Create your next success story</p>
+          <h1>Beautiful landing pages made easy.</h1>
+          <p class="hero-text">Launch your product with style and confidence. Fast, responsive, and designed to convert visitors into customers.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Get Started</a>
+            <a href="#features" class="btn btn-secondary">See Features</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-card">
+            <h2>Launch faster</h2>
+            <p>Templates, analytics, and support in one clean interface.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container section-heading">
+        <span class="eyebrow">Features</span>
+        <h2>Everything you need for a polished site.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Responsive design</h3>
+          <p>Looks great on phones, tablets, and desktops without extra effort.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Fast performance</h3>
+          <p>Optimized layout and lightweight code for fast loading pages.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Simple customization</h3>
+          <p>Change colors, text, and images with ease to match your brand.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about-content">
+        <div>
+          <span class="eyebrow">About us</span>
+          <h2>Built for creators, teams, and startups.</h2>
+          <p>We help you focus on your message while the page takes care of itself. Connect with visitors and make an immediate impact.</p>
+          <ul class="about-list">
+            <li>Modern layout system</li>
+            <li>Useful interaction elements</li>
+            <li>Works without extra frameworks</li>
+          </ul>
+        </div>
+        <div class="about-box">
+          <h3>Trusted by growing brands</h3>
+          <p>Join hundreds of teams using this starter landing page to launch campaigns quickly.</p>
+          <div class="stats">
+            <div>
+              <strong>120+</strong>
+              <span>Projects shipped</span>
+            </div>
+            <div>
+              <strong>24/7</strong>
+              <span>Support available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-panel">
+        <div>
+          <span class="eyebrow">Contact</span>
+          <h2>Ready to launch?</h2>
+          <p>Send a message and we’ll help you get started with a polished landing page.</p>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <input type="text" id="name" placeholder="Your name" required />
+          <input type="email" id="email" placeholder="Your email" required />
+          <textarea id="message" rows="4" placeholder="Your message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-message" id="formMessage"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 BrightStart. All rights reserved.</p>
+      <p>Made with HTML, CSS, and JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
