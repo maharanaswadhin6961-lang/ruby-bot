@@ -1,0 +1,54 @@
+.navbar{ 
+  text-decoration:none;
+  gap:30px;
+  margin:10px;
+}
+.navbar a{ 
+  text-decoration:none;
+  color:black;
+}
+.navbar a:hover{ 
+  color:blue;
+}
+.navbar a.active{ 
+  color:red;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(248, 170, 75);
+}
+.codex{
+    background-color: rgb(228, 77, 77);
+    border: 3px solid rgb(76, 43, 226);
+    border-radius: 10px;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+    padding: 20px;
+    font-family: algerian;
+    font-size: large;
+}
+.ruby{
+    color: rgb(64, 9, 100);
+    font-family: cursive;
+    font-size: medium;
+}
+.swedex{
+    color: rgba(36, 3, 3, 0.5);
+    font-family: cursive;
+    font-size: medium;
+}
+.dot{
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-size: medium;
+}
+.sai{
+    color: rgba(0, 150, 0, 0.2);
+    font-family: cursive;
+    font-size: medium;
+}
+.fort{
+    color: rgb(255, 0, 242);
+    font-family: cursive;
+    font-size: medium;
+}
