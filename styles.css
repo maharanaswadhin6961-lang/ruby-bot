@@ -1,17 +1,42 @@
-.navbar{ 
-  text-decoration:none;
-  gap:30px;
-  margin:10px;
+.navbar {
+    position: relative;
+    background: lightgray;
+    padding: 10px;
 }
-.navbar a{ 
-  text-decoration:none;
-  color:black;
+
+
+#menu-toggle {
+    display: none;
 }
-.navbar a:hover{ 
-  color:blue;
+
+
+.menu-btn {
+    font-size: 26px;
+    cursor: pointer;
 }
-.navbar a.active{ 
-  color:red;
+
+
+.menu {
+    display: none;
+    background: white;
+    margin-top: 10px;
+}
+
+
+#menu-toggle:checked + .menu-btn + .menu {
+    display: block;
+}
+
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    background: lightblue;
 }
 body{
   font-family:Arial, Helvetica, sans-serif;
